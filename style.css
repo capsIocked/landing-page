@@ -37,9 +37,29 @@ body{
 
 
 .section-2 .box-container .box{
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     background-color: aqua;
+}
+
+.section-3{
+    background-color: #e5e7eb;
+}
+.section-3 em{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: light;
+}
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-4 .sign-up{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: 1080px;
 }
 
 footer{
