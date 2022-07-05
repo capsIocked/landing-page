@@ -7,8 +7,15 @@ body{
 .section-1{
     background-color: #1f2937;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .section-1 header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #e5e7eb;
 }
 .section-1 .header-logo{
@@ -18,6 +25,14 @@ body{
 }
 .section-1 ul{
     list-style-type: none;
+    display: flex;
+    gap: 12px;
+}
+.section-1 .main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 .section-1 ul a:link{
     color: #e5e7eb;
@@ -26,20 +41,39 @@ body{
 .section-1 .main img{
     width: 480px;
 }
-.section-1 .main .text h1{
+.section-1 .main .text{
+    width: 500px;
+}
+.section-1 .main .text strong{
     color: #f9faf8;
     font-size: 48px;
 }
-.section-1 .main .text h6{
+.section-1 .main .text p{
     color: #e5e7eb;
     font-size: 18px;
 }
 
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2 .box-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
 
 .section-2 .box-container .box{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     background-color: aqua;
+}
+.section-2 .box-container .box .box-content{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
 }
 
 .section-3{
